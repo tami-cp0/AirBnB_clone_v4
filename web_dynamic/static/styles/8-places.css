@@ -99,3 +99,74 @@
 .user {
   margin-bottom: 1.5%;
 }
+
+.places div.amenities {
+    height: 100%;
+    width: 100%;
+	margin-top: 20px;
+	position: relative;
+}
+
+.places .amenities h2 {
+	font-size: 16px;
+	border-bottom: 1px solid #DDDDDD;
+	padding-bottom: 5px;
+	text-align: left;
+}
+
+.places .amenities ul {
+  margin: 0;
+    padding: 0;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.places .amenities ul li {
+  flex-basis: 45%;
+  list-style-type: none;
+  padding: 2px;
+    font-size: 14px;
+}
+
+.places div.reviews {
+	margin-top: 20px;
+	position: relative;
+}
+
+.places .reviews h2 {
+	font-size: 16px;
+	border-bottom: 1px solid #DDDDDD;
+	padding-bottom: 5px;
+	text-align: left;
+}
+
+.places .reviews ul {
+    margin-bottom: 20px;
+    display: inline-block;
+	padding: 0;
+}
+
+.places .reviews ul h3{
+	font-size: 14px;
+	margin: 0;
+    padding: 0;
+}
+.places .reviews ul p{
+	font-size: 12px;
+	margin: 0;
+    padding: 0;
+}
+
+.places .reviews ul li{
+    padding: 0;
+	margin-left: 0;
+	list-style-type: none;
+}
+
+.places .reviews h2 span {
+	font-size: 14px;
+	color: #555555;
+	float: right;
+    text-decoration: underline;
+}

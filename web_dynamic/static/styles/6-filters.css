@@ -69,6 +69,8 @@ button:hover {
 }
 
 .amenities .popover {
+    position: relative;
+    top: 16px;
     padding: 10px 0;
     margin-left: -5px;
     margin-top: 0%;
@@ -78,9 +80,34 @@ button:hover {
     margin: 0px;
 }
 
+.amenities .popover input{
+    margin-right: 10px;
+}
+
+.amenities h4 {
+    height: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
 .locations .popover {
+    position: relative;
+    top: 16px;
     margin-top: 0%;
 }
+
+.locations .popover input{
+    margin-right: 10px;
+}
+
+.locations h4 {
+    height: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
 .popover ul {
     list-style-type: none;
     padding-bottom: 10px;
